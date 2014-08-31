@@ -30,6 +30,8 @@
    			android:xlargeScreens="true" />
    			
    			
+   			<feature name="http://api.phonegap.com/1.0/device" />
+   			
             <!-- <<<<<<<<<<<<<<  ICONS  >>>>>>>>>>>>>>> -->
             <icon src="icon.png" />
            
