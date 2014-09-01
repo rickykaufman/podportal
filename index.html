@@ -6,6 +6,12 @@
 		<link rel="stylesheet" href="jquery.mobile.flatui.min.css" type="text/css">
 		<script src="energize-min.js"></script>
 		<script src="jquery-1.11.1.min.js"></script>
+		<script>
+		$(document).bind("mobileinit", function(){
+ 			$.mobile.defaultPageTransition = "none";
+		});
+		</script>
+		
 		<script src="jquery.mobile-1.4.3/jquery.mobile-1.4.3.min.js"></script>
 		<script src="phonegap.js"></script>
 		<script type="text/javascript" charset="utf-8">
@@ -35,7 +41,7 @@
 	</head>
 
 	<body>
-		<div data-role="page" id="pageone" data-transition="none">
+		<div data-role="page" id="pageone" >
 			<div data-role="header" data-theme="f">
 				<h1>Patient Education</h1>
 				
@@ -63,7 +69,7 @@
 		</div> <!-- / page1 -->
 		
 		 <!-- / ARTHRITIS-->
-		<div data-role="page" data-transition="none" id="arthritis">
+		<div data-role="page"  id="arthritis">
 			<div data-role="header" data-theme="f" data-add-back-btn="true">
 				<h1>Arthritis</h1>
 				
@@ -80,7 +86,7 @@
 			
 		</div> 
 		
-		<div data-role="page" data-transition="none" id="aboutArthritis">
+		<div data-role="page"  id="aboutArthritis">
 			<div data-role="header" data-theme="f" data-add-back-btn="true" data-add-back-btn="true">
 				<h1>Arthritis</h1>
 				
@@ -113,7 +119,7 @@
 			
 		</div> 
 		
-		<div data-role="page" data-transition="none" id="typesOfArthritis">
+		<div data-role="page"  id="typesOfArthritis">
 			<div data-role="header" data-theme="f" data-add-back-btn="true">
 				<h1>Arthritis</h1>
 				
@@ -132,7 +138,7 @@
 			
 		</div> 
 		
-		<div data-role="page" data-transition="none" id="osteoArthritis">
+		<div data-role="page"  id="osteoArthritis">
 			<div data-role="header" data-theme="f" data-add-back-btn="true">
 				<h1>Osteoarthritis</h1>
 				
@@ -149,7 +155,7 @@
 		</div> 
 		
 		
-		<div data-role="page" data-transition="none" id="rheumatoidArthritis">
+		<div data-role="page"  id="rheumatoidArthritis">
 			<div data-role="header" data-theme="f" data-add-back-btn="true">
 				<h1>Rheumatoid Arthritis</h1>
 				
@@ -167,7 +173,7 @@
 			
 		</div> 
 		
-		<div data-role="page" data-transition="none" id="gout">
+		<div data-role="page"  id="gout">
 			<div data-role="header" data-theme="f" data-add-back-btn="true">
 				<h1>Gout</h1>
 				
@@ -183,7 +189,7 @@
 			
 		</div> 
 		
-		<div data-role="page" data-transition="none" id="psoriaticArthritis">
+		<div data-role="page"  id="psoriaticArthritis">
 			<div data-role="header" data-theme="f" data-add-back-btn="true">
 				<h1>Psoriatic Arthritis</h1>
 				
@@ -199,7 +205,7 @@
 			
 		</div> 
 		
-		<div data-role="page" data-transition="none" id="traumaticArthritis">
+		<div data-role="page"  id="traumaticArthritis">
 			<div data-role="header" data-theme="f" data-add-back-btn="true">
 				<h1>Traumatic Arthritis</h1>
 				
@@ -215,7 +221,7 @@
 			
 		</div> 
 		
-		<div data-role="page" data-transition="none" id="treatmentArthritis">
+		<div data-role="page"  id="treatmentArthritis">
 			<div data-role="header" data-theme="f" data-add-back-btn="true">
 				<h1>Arthritis Treatments</h1>
 				
@@ -235,7 +241,7 @@
 		<!-- / END OF ARTHRITIS-->
 		 
 		 <!-- / BUNIONS-->
-		<div data-role="page" data-transition="none" id="bunions">
+		<div data-role="page"  id="bunions">
 			<div data-role="header" data-theme="f" data-add-back-btn="true">
 				<h1>Bunions</h1>
 				
@@ -255,7 +261,7 @@
 			
 		</div> 
 		
-		<div data-role="page" data-transition="none" id="whatBunion">
+		<div data-role="page"  id="whatBunion">
 			<div data-role="header" data-theme="f" data-add-back-btn="true">
 				<h1>What is a Bunion?</h1>
 				
@@ -276,7 +282,7 @@
 		
 		
 		
-			<div data-role="page" data-transition="none" id="causesBunion">
+			<div data-role="page"  id="causesBunion">
 			<div data-role="header" data-theme="f" data-add-back-btn="true">
 				<h1>Causes of Bunions</h1>
 				
@@ -301,7 +307,7 @@ Wearing shoes that are too tight or cause the toes to be squeezed together is al
 			<div data-role="footer" style="text-align:center;" data-position="fixed"> <a href="#pageone" class="ui-btn ui-icon-home ui-btn-icon-left" data-theme="f">Home</a></div>
 			</div>
 		
-		<div data-role="page" data-transition="none" id="symptomsBunion">
+		<div data-role="page"  id="symptomsBunion">
 			<div data-role="header" data-theme="f" data-add-back-btn="true">
 				<h1>Symptoms of Bunions</h1>
 			
@@ -323,7 +329,7 @@ Wearing shoes that are too tight or cause the toes to be squeezed together is al
 			</div>
 			
 			
-			<div data-role="page" data-transition="none" id="treatmentsBunion">
+			<div data-role="page"  id="treatmentsBunion">
 			<div data-role="header" data-theme="f" data-add-back-btn="true">
 				<h1>Treatments for Bunions</h1>
 				
@@ -336,7 +342,7 @@ Wearing shoes that are too tight or cause the toes to be squeezed together is al
 			<div data-role="footer" style="text-align:center;" data-position="fixed"> <a href="#pageone" class="ui-btn ui-icon-home ui-btn-icon-left" data-theme="f">Home</a></div>
 			</div>
 			
-			<div data-role="page" data-transition="none" id="preventionBunion">
+			<div data-role="page"  id="preventionBunion">
 			<div data-role="header" data-theme="f" data-add-back-btn="true">
 				<h1>Prevention of Bunions</h1>
 				
@@ -358,7 +364,7 @@ Wearing shoes that are too tight or cause the toes to be squeezed together is al
 		
 		
 		<!-- / DFC-->
-		<div data-role="page" data-transition="none" id="diabetesVasc">
+		<div data-role="page"  id="diabetesVasc">
 			<div data-role="header" data-theme="f" data-add-back-btn="true">
 				<h1>Diabetes and Vascular Disease</h1>
 				
@@ -393,7 +399,7 @@ Wearing shoes that are too tight or cause the toes to be squeezed together is al
 		
 		
 		 <!-- / Foot and Ankle Injuries-->
-		<div data-role="page" data-transition="none" id="injuries">
+		<div data-role="page"  id="injuries">
 			<div data-role="header" data-theme="f" data-add-back-btn="true">
 				<h1>Patient Education</h1>
 				
@@ -409,7 +415,7 @@ Wearing shoes that are too tight or cause the toes to be squeezed together is al
 		</div> <!-- / END OF Injuries-->
 		
 		 <!-- / Hammertoes-->
-		<div data-role="page" data-transition="none" id="hammerToes">
+		<div data-role="page"  id="hammerToes">
 			<div data-role="header" data-theme="f" data-add-back-btn="true" style="border-style: none;">
 				<h1>Hammer Toes</h1>
 				
@@ -430,7 +436,7 @@ Wearing shoes that are too tight or cause the toes to be squeezed together is al
 		
 		
 		<!-- / HEEL PAIN -->
-		<div data-role="page" data-transition="none" id="heelPain">
+		<div data-role="page"  id="heelPain">
 			<div data-role="header" data-theme="f" data-add-back-btn="true">
 				<h1>Heel Pain</h1>
 				
@@ -461,7 +467,7 @@ Wearing shoes that are too tight or cause the toes to be squeezed together is al
 	
 		
 		<!-- / Muscle and Tendon Problems-->
-		<div data-role="page" data-transition="none" id="muscleTendon">
+		<div data-role="page"  id="muscleTendon">
 			<div data-role="header" data-theme="f" data-add-back-btn="true">
 				<h1>Muscle and Tendon</h1>
 				
@@ -481,7 +487,7 @@ Wearing shoes that are too tight or cause the toes to be squeezed together is al
 		
 		
 		<!-- / Skin Disorders-->
-		<div data-role="page" data-transition="none" id="skinDisorders">
+		<div data-role="page"  id="skinDisorders">
 			<div data-role="header" data-theme="f" data-add-back-btn="true">
 				<h1>Skin Disorders</h1>
 				
@@ -501,7 +507,7 @@ Wearing shoes that are too tight or cause the toes to be squeezed together is al
 		</div> <!-- / END OF skin disorders-->
 		
 		<!-- / Nerve Disorders-->
-		<div data-role="page" data-transition="none" id="nerveDisorders">
+		<div data-role="page"  id="nerveDisorders">
 			<div data-role="header" data-theme="f" data-add-back-btn="true">
 				<h1>Nerve Disorders</h1>
 				
@@ -517,7 +523,7 @@ Wearing shoes that are too tight or cause the toes to be squeezed together is al
 		</div> <!-- / END OF nerve disorders-->
 		
 			<!-- / Toenail Problems-->
-		<div data-role="page" data-transition="none" id="toenailProblems">
+		<div data-role="page"  id="toenailProblems">
 			<div data-role="header" data-theme="f" data-add-back-btn="true">
 				<h1>Toenail Disorders</h1>
 				
@@ -533,7 +539,7 @@ Wearing shoes that are too tight or cause the toes to be squeezed together is al
 		</div> <!-- / END OF toenail problems-->
 		
 			<!-- / What is a Podiatrist-->
-		<div data-role="page" data-transition="none" id="whatPod">
+		<div data-role="page"  id="whatPod">
 			<div data-role="header" data-theme="f" data-add-back-btn="true">
 				<h1>What is a Podiatrist?</h1>
 				
