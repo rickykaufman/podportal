@@ -111,12 +111,12 @@
     <!-- Core plugins -->
   
 	<gap:plugin name="org.apache.cordova.statusbar" version="0.1.4" />
-		   
+
 		   
            <!-- Customize your app and platform with the preference element. -->
     <preference name="phonegap-version"           value="3.7.0" />          <!-- all: current version of PhoneGap -->
     <preference name="orientation"                value="portrait" />        <!-- all: default means both landscape and portrait are enabled -->
-   
+   <preference name="StatusBarOverlaysWebView" value="true" />
            
            
             <access origin="*"/>
