@@ -118,7 +118,9 @@
     <preference name="orientation"                value="portrait" />        <!-- all: default means both landscape and portrait are enabled -->
    <preference name="StatusBarOverlaysWebView" value="false" />
            
-           
+  <gap:config-file platform="ios" parent="UIViewControllerBasedStatusBarAppearance" overwrite="true">
+   <false/>
+</gap:config-file>
             <access origin="*"/>
            
     </widget>
