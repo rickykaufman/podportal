@@ -111,7 +111,7 @@
             <!--- <<<<<<<<<<<<<<<<<<< Splash Screen  END >>>>>>>>>>>>>>>>>>>> -->
        
             <!-- Plugins -->
-
+ <gap:plugin name="org.apache.cordova.inappbrowser" />
     <!-- Core plugins -->
   
 	<gap:plugin name="com.phonegap.plugin.statusbar" version="1.1.0" />
@@ -121,8 +121,10 @@
     <preference name="phonegap-version"           value="3.7.0" />          <!-- all: current version of PhoneGap -->
     <preference name="orientation"                value="portrait" />        <!-- all: default means both landscape and portrait are enabled -->
    <preference name="StatusBarOverlaysWebView" value="false" />
+    <preference name="stay-in-webview"            value="false" /> 
            
   <gap:config-file platform="ios" parent="UIViewControllerBasedStatusBarAppearance" overwrite="true">
+ 
    <false/>
 </gap:config-file>
             <access origin="*"/>
