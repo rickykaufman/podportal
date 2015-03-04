@@ -121,7 +121,7 @@
     <preference name="phonegap-version"           value="3.7.0" />          <!-- all: current version of PhoneGap -->
     <preference name="orientation"                value="portrait" />        <!-- all: default means both landscape and portrait are enabled -->
    <preference name="StatusBarOverlaysWebView" value="false" />
-    <preference name="stay-in-webview"            value="false" /> 
+    <preference name="stay-in-webview"            value="true" /> 
            
   <gap:config-file platform="ios" parent="UIViewControllerBasedStatusBarAppearance" overwrite="true">
  
