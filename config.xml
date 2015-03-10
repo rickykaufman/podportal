@@ -115,12 +115,12 @@
     <!-- Core plugins -->
   
 	<gap:plugin name="com.phonegap.plugin.statusbar" version="1.1.0" />
-	 <gap:plugin name="org.apache.cordova.inappbrowser" />
+	<gap:plugin name="org.apache.cordova.inappbrowser" version="0.5.2" />
 		   
-           <!-- Customize your app and platform with the preference element. -->
+    <!-- Customize your app and platform with the preference element. -->
     <preference name="phonegap-version"           value="3.7.0" />          <!-- all: current version of PhoneGap -->
     <preference name="orientation"                value="portrait" />        <!-- all: default means both landscape and portrait are enabled -->
-   <preference name="StatusBarOverlaysWebView" value="false" />
+    <preference name="StatusBarOverlaysWebView" value="false" />
     
            
   <gap:config-file platform="ios" parent="UIViewControllerBasedStatusBarAppearance" overwrite="true">
