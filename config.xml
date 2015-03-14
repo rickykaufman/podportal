@@ -3,11 +3,11 @@
            xmlns:gap   = "http://phonegap.com/ns/1.0"
            xmlns:android   = "http://schemas.android.com/apk/res/android"
            id          = "com.podiatrywebsolutions.portal1"
-           version     = "1.0.0" >
+           version     = "1.0.1" >
            
             
            
-            <name>Patient Education Portal</name>
+            <name>PatientPortal</name>
      
             <description>
             Learn about common foot and ankle problems and find helpful solutions to them using our app!
